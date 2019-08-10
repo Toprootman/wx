@@ -1,0 +1,37 @@
+.list{
+  width: 650rpx;
+  height: 100rpx;
+  margin-left: 40rpx;
+  margin-right: 20rpx;
+  line-height: 100rpx;
+  border-bottom: solid 1rpx #B5B5B5;
+}
+.list>text{
+   font-size: 30rpx;
+  float: left;
+  display: block;
+  width: 200rpx;
+  height: 100rpx;
+}
+.list>input{
+  font-size: 30rpx;
+  color: #B5B5B5;
+  float: left;
+  width: 450rpx;
+  height: 100rpx;
+}
+.xuanze{
+  font-size: 30rpx;
+}
+.preservation{
+  width: 650rpx;
+  height: 100rpx;
+  margin-left: 40rpx;
+  margin-right: 20rpx;
+  margin-top: 80rpx;
+  line-height: 100rpx;
+ background: #d81e06;
+ color: white;
+ letter-spacing: 20rpx;
+ text-align: center;
+}

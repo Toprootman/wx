@@ -1,0 +1,12 @@
+<view class="box">
+<form>
+<view class="inputbox">
+<text>手机号</text><input placeholder="输入手机号" type="number"></input><view class="btn">获取验证码</view>
+</view>
+<view class="inputbox">
+<text>验证码</text><input placeholder="输入验证码" type="number"></input>
+</view>
+<view class="tipsbox">根据国家政策，首次注册的用户需要完成绑定手机号操作，下次进入可直接通过微信授权自动登录。</view>
+<button>绑定</button>
+</form>
+</view>

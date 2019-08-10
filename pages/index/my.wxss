@@ -1,0 +1,73 @@
+.userbox{
+  width: 150rpx;
+  height: 150rpx;
+  background: white;
+  border-radius: 100rpx;
+  position: absolute;
+  top: 160rpx;
+  left: 70rpx;
+  overflow: hidden;
+}
+.viewOrders{
+  clear: both;
+  padding: 20rpx;
+  width: 710rpx;
+  height: 50rpx;
+  border-bottom: 4rpx solid rgba(197, 197, 197, 0.438);
+  line-height: 40rpx;
+  font-size: 30rpx;
+}
+.title{
+  float:left; 
+  height:40rpx;
+  width: 500rpx;
+  display:block;
+  line-height: 40rpx;
+}
+.title2{
+ float:left; 
+  height:40rpx;
+  width: 120rpx;
+  display:block;
+  line-height: 40rpx;
+}
+.icon{
+  float: left;
+  width:40rpx;
+  height:40rpx;
+  margin-left:16rpx;
+  color: #707070;
+}
+.express{
+  width: 100%;
+  height: 180rpx;
+  border-bottom: 16rpx solid rgba(197, 197, 197, 0.438);
+}
+.box{
+  float: left;
+  height: 180rpx;
+  width: 25%;
+}
+.box>text{
+  width: 100%;
+  height: 40rpx;
+  text-align: center;
+  display: block;
+  font-size: 30rpx;
+}
+.box>image{
+  width:60rpx;
+  height:60rpx;
+  margin-top: 30rpx;
+  margin-left: 66rpx;
+}
+.btn{
+  position: absolute;
+  top: 980rpx;
+  padding: 20rpx;
+  width: 730rpx;
+  height: 50rpx;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  opacity: 0;
+}

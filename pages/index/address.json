@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "address": "/pages/index/modal1"
+  }
+}

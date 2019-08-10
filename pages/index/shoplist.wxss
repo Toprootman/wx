@@ -1,0 +1,66 @@
+.box{
+  width: 100%;
+  background: gold;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.shopbox{
+  margin: 10rpx;
+  float: left;
+  width: 340rpx;
+  height: 456rpx;
+  border: 1px solid #ccc;
+}
+.mainTitle{
+  width: 337rpx;
+  height: 34rpx;
+  display: block;
+  overflow:hidden;
+  text-align: left;
+  line-height: 34rpx;
+  font-size: 25rpx;
+}
+.subTitle{
+  width: 337rpx;
+  height: 34rpx;
+  display: block;
+  overflow:hidden;
+  text-align: left;
+  line-height: 34rpx;
+  font-size: 22rpx;
+}
+.money{
+  width: 337rpx;
+  height: 34rpx;
+  display: block;
+  overflow:hidden;
+  text-align: left;
+  color: #d81e06;
+  line-height: 34rpx;
+  font-size: 22rpx;
+}
+.evaluate{
+  width: 158rpx;
+  height: 34rpx;
+  float: left;
+  text-align: left;
+  display: block;
+  overflow:hidden;
+  line-height: 34rpx;
+  font-size: 22rpx;
+}
+.delivery{
+  width: 158rpx;
+  height: 34rpx;
+  float: left;
+  text-align: right;
+  display: block;
+  overflow:hidden;
+  line-height: 34rpx;
+  font-size: 22rpx;
+}
+.shopInformation{
+  width: 100%;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}

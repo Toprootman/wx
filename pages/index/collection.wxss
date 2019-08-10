@@ -1,0 +1,33 @@
+.list{
+  width: 100%;
+  height: 257rpx;
+  margin-bottom: 10rpx;
+}
+.list>image{
+  float: left;
+  width: 40%;
+  height: 257rpx;
+}
+.content{
+  float: left;
+  width: 60%;
+  height:257rpx;
+}
+.content>text{
+overflow: hidden;
+font-size: 30rpx;
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding-left: 20rpx;
+}
+.content>view{
+  float: left;
+  width: 50%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  letter-spacing: 10rpx;
+  font-size: 36rpx;
+}

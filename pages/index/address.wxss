@@ -1,0 +1,41 @@
+.addressbox{
+  width: 640rpx;
+  height: 200rpx;
+  margin: 50rpx;
+  border-bottom: solid 1rpx black;
+}
+.left{
+  float: left;
+  width: 600rpx;
+  height: 200rpx;
+}
+.right{
+  float: left;
+  width: 40rpx;
+  height: 200rpx;
+}
+.right>image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 80rpx;
+}
+.list{
+  width: 600rpx;
+  height: 60rpx;
+}
+.list>text{
+  margin-right: 20rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.addedAddress{
+  width: 100%;
+  height: 120rpx;
+  background: red;
+  color: white;
+  line-height: 120rpx;
+  text-align: center;
+  letter-spacing: 20rpx;
+  position: fixed;
+  top: 1070rpx;
+  }

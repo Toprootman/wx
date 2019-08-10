@@ -1,0 +1,40 @@
+<view class='topTabSwiper'>
+<block wx:for="{{classificationList}}" wx:key="{{index}}">
+    <view class='tab  {{currentData == item.id ? "tabBorer" : ""}}'  data-current = "{{item.id}}" bindtap='checkCurrent'>{{item.name}}</view>
+</block>
+</view>
+<swiper  style="height:{{sheight}}rpx;"  current="{{currentData}}" class='swiper'  duration="300" bindchange="bindchange">
+<block wx:for="{{classificationList}}" wx:key="{{index}}">
+  <swiper-item><view class='swiper_con'><view>----{{item.name}}----</view>
+  
+  
+  <view class="box">
+<block wx:for="{{shop}}" wx:key="{{index}}">
+  <view class="shopbox" bindtap="jump">
+  <image src='{{item.url}}' style="width:100%;height:220rpx"></image>
+  <view class="shopInformation">
+  <text class="mainTitle">{{item.mainTitle}}</text>
+  <text class="money">￥{{item.money}}</text>
+
+ 
+  </view>
+  </view>
+  </block>
+</view>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </view></swiper-item>
+  </block>
+</swiper>

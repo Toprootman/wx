@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "zcx":"/pages/index/modal"
+  }
+}

@@ -1,0 +1,72 @@
+.tab {
+  width: 100%;
+  text-align: center;
+  padding: 10rpx 0;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.topTabSwiper {
+  position: fixed;
+  width: 30%;
+  zoom: 1;
+  float: left;
+}
+
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tabBorer {
+  border-left: 1px solid #f00;
+}
+
+.swiper {
+  position: absolute;
+  left: 30%;
+  float: left;
+  width: 70%;
+}
+
+.swiper_con {
+  text-align: center;
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  background: gold;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.shopbox {
+  margin: 10rpx;
+  float: left;
+  width: 220rpx;
+  height: 290rpx;
+  border: 1px solid #ccc;
+}
+
+.mainTitle {
+  width: 220rpx;
+  height: 30rpx;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  line-height: 30rpx;
+  font-size: 20rpx;
+}
+
+.money {
+  width: 220rpx;
+  height: 30rpx;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  color: #d81e06;
+  line-height: 30rpx;
+  font-size: 20rpx;
+}

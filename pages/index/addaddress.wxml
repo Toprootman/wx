@@ -1,0 +1,21 @@
+<view class="list">
+  <text>联系人</text>
+  <input placeholder="请填写姓名" type="text"></input>
+</view>
+<view class="list">
+  <text>手机</text>
+  <input placeholder="11位手机号码" type="number"></input>
+</view>
+<view class="list">
+  <text>地区</text>
+  <picker bindchange="changeRegin" mode="region" value="{{region}}">
+    <view class="xuanze">{{region[0]}} - {{region[1]}} - {{region[2]}}</view>
+  </picker>
+
+</view>
+<view class="list">
+  <text>详细地址</text>
+  <input placeholder="街道门牌号等信息" type="text"></input>
+</view>
+
+<view class="preservation">保存</view>

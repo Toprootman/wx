@@ -1,0 +1,34 @@
+<view>
+  <image src='/img/userbanner.jpg' style="width:100%;height:400rpx"></image>
+  <view class="userbox">
+    <image src='/icon/userimg.png' style="width:150rpx;height:150rpx"></image>
+  </view>
+  <view class="viewOrders" bindtap="jumporder">
+    <text class="title">查看订单</text>
+    <text class="title2">查看全部</text>
+    <image class="icon" src="/icon/right.png"></image>
+  </view>
+  <view class="express">
+  <block wx:for="{{express}}" wx:key="{{index}}">
+  <view class="box">
+  <image src="{{item.imgUrl}}"></image>
+  <text>{{item.text}}</text>
+  </view>
+   </block>
+  </view>
+<block wx:for="{{list}}" wx:key="{{index}}">
+<view class="viewOrders"  bindtap="{{item.name}}">
+    <text class="title">{{item.text}}</text>
+    <text class="title2"></text>
+    <image class="icon" src="/icon/right.png"></image>
+  </view>
+   </block>
+   <view class="viewOrders">
+    <text class="title">版本号</text>
+    <text class="title2"></text>
+    <view class="icon">1.0.9</view>
+  </view>
+
+
+<button class="btn" open-type='feedback' type='primary'>意见反馈</button>
+</view>

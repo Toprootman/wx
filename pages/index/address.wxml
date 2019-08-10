@@ -1,0 +1,21 @@
+ <block wx:for="{{User[0].address}}" wx:key="{{index}}">
+<view class="addressbox">
+<view class="left">
+<view class="list">
+<text class="name">{{item.name}}</text><text class="tel">{{item.tel}}</text>
+</view>
+<view class="list">
+<text class="province">{{item.province}}</text><text class="city">{{item.city}}</text><text class="county">{{item.county}}</text>
+</view>
+<view class="list">
+<text class="detailedaddress">{{item.detailedaddress}}</text>
+</view>
+</view>
+<view class="right">
+<image src="/icon/pen.png" bindtap="change"></image>
+</view>
+
+</view>
+</block>
+<view class="addedAddress" bindtap="jump">新增地址</view>
+<address id="address" v:if="{{show}}"></address>

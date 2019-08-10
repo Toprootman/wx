@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper style="height:400rpx;width:100%" indicator-dots='true' autoplay='true' interval='4000' duration='1000' circular='true'>
+  <block wx:for="{{bannerUrl}}" wx:key="{{index}}">
+  <swiper-item>
+  <image src='{{item.url}}' style="width:100%;height:400rpx"></image>
+  </swiper-item>
+  </block>
+  </swiper>
+  <view class="recommend">
+  <block wx:for="{{recommend}}" wx:key="{{index}}">
+  <view>
+  <image src="{{item.url}}" bindtap="list"></image>
+  <text>{{item.title}}</text>
+  </view>
+  </block>
+  </view>
+  <view class="box">
+  <view class="bigTitle"><text>-人群推荐-</text></view>
+  <view class="peopleRecommend">
+  <view class="left">
+  <image src="/img/1.jpg" bindtap="list"></image>
+  </view>
+  <view class="right">
+  <image src="/img/2.jpg" bindtap="list"></image>
+  <image src="/img/3.jpg" bindtap="list"></image>
+  </view>
+  </view>
+  <view class="bigTitle"><text>-口味推荐-</text></view>
+  <view class="flavorRecommend">
+    <block wx:for="{{flavorrecommend}}" wx:key="{{index}}">
+  <view>
+  <image src="{{item.url}}" bindtap="list"></image>
+  </view>
+  </block>
+  </view>
+  <view class="bigTitle"><text>-热卖精选-</text></view>
+  <block wx:for="{{shop}}" wx:key="{{index}}">
+  <view class="shop" bindtap="jump">
+  <image src='{{item.url}}' style="width:100%;height:337rpx"></image>
+  <text class="mainTitle">{{item.mainTitle}}</text>
+  <text class="subTitle">{{item.subTitle}}</text>
+  <text class="money">￥{{item.money}}</text>
+  </view>
+  </block>
+  </view>
+  
+  <navigator class="btn" url="./shoplist" open-type="navigate">点击查看更多</navigator>
+</view>

@@ -1,0 +1,14 @@
+<view>
+<block wx:for="{{User[0].collection}}" wx:key="{{index}}">
+<view  class="list">
+<image src="{{item.url}}"></image>
+<view class="content">
+<text>{{item.mainTitle}}</text>
+<text>{{item.subTitle}}</text>
+<text>￥{{item.money}}</text>
+<view bindtap="jump">立即购买</view>
+<view data-index="{{index}}" bindtap="cancel">取消收藏</view>
+</view> 
+</view>
+</block>
+</view>
