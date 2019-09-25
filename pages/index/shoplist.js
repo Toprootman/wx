@@ -15,7 +15,7 @@ Page({
         "mainTitle": "【全国配送】黑森林",
         "subTitle": "wink cake",
         "money": "148",
-        "url": "/img/shop1.png",
+        "url": "/img/shop1.jpg",
         "evaluate": "3",
         "delivery": "快递配送"
       }, 
@@ -23,7 +23,7 @@ Page({
         "mainTitle": "【全国配送】黑森林",
         "subTitle": "wink cake",
         "money": "148",
-        "url": "/img/shop2.png",
+        "url": "/img/shop2.jpg",
         "evaluate": "3",
         "delivery": "快递配送"
       },
@@ -31,7 +31,7 @@ Page({
         "mainTitle": "【全国配送】黑森林",
         "subTitle": "wink cake",
         "money": "148",
-        "url": "/img/shop3.png",
+        "url": "/img/shop3.jpg",
         "evaluate": "3",
         "delivery": "快递配送"
       },
@@ -39,7 +39,7 @@ Page({
         "mainTitle": "【全国配送】黑森林",
         "subTitle": "wink cake",
         "money": "148",
-        "url": "/img/shop4.png",
+        "url": "/img/shop4.jpg",
         "evaluate": "3",
         "delivery": "快递配送"
       },
@@ -47,7 +47,7 @@ Page({
         "mainTitle": "【全国配送】黑森林",
         "subTitle": "wink cake",
         "money": "148",
-        "url": "/img/shop5.png",
+        "url": "/img/shop5.jpg",
         "evaluate": "3",
         "delivery": "快递配送"
       },
@@ -55,7 +55,7 @@ Page({
         "mainTitle": "【全国配送】黑森林",
         "subTitle": "wink cake",
         "money": "148",
-        "url": "/img/shop6.png",
+        "url": "/img/shop6.jpg",
         "evaluate": "3",
         "delivery": "快递配送"
       },
@@ -63,7 +63,7 @@ Page({
         "mainTitle": "【全国配送】黑森林",
         "subTitle": "wink cake",
         "money": "148",
-        "url": "/img/shop7.png",
+        "url": "/img/shop7.jpg",
         "evaluate": "3",
         "delivery": "快递配送"
       },
@@ -71,7 +71,7 @@ Page({
         "mainTitle": "【全国配送】黑森林",
         "subTitle": "wink cake",
         "money": "148",
-        "url": "/img/shop8.png",
+        "url": "/img/shop8.jpg",
         "evaluate": "3",
         "delivery": "快递配送"
       },
